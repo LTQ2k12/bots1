@@ -5,7 +5,7 @@ import json
 import os
 from keep_alive import keep_alive  # giữ bot sống 24/24
 
-TOKEN = os.getenv("TOKEN")  # lấy token từ Secrets trên Replit
+TOKEN = os.getenv("MTQwMjY0MDQwODQ5MTcyMDc4NA.GcnJ66.Om3GlJXCE2mzxqyqeZmhDK7FAV98PbJjfbyLco")  # lấy token từ Secrets trên Replit
 DATA_FILE = "status_data.json"
 
 intents = discord.Intents.all()
@@ -148,3 +148,4 @@ async def FA(ctx):
 # === Chạy bot ===
 keep_alive()  # giữ bot sống 24/24
 bot.run(TOKEN)
+
